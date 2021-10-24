@@ -105,6 +105,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
 	{ MODKEY|ShiftMask,							XK_x,			 spawn,          SHCMD("firefox") },
+	{ MODKEY|ALTKEY|ShiftMask,			XK_x,			 spawn,          SHCMD("firefox-bin") },
 	{ MODKEY|ShiftMask,							XK_d,			 spawn,          SHCMD("discord") },
 	{ MODKEY,												XK_F12,		 spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,												XK_w,		 	 spawn,          SHCMD("rofi -show window") },
